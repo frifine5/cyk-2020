@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cert-api" />
+        <module name="person-use-espdf-api" />
+        <module name="person-use-espdf-api (1)" />
+        <module name="seal-api" />
+        <module name="seal-sys-api" />
+        <module name="self-plat" />
+        <module name="websocket-demo" />
+        <module name="websocket-mms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cert-api" target="1.8" />
+      <module name="multi-ds" target="1.8" />
+      <module name="person-use-espdf-api" target="1.8" />
+      <module name="person-use-espdf-api (1)" target="1.8" />
+      <module name="seal-api" target="1.8" />
+      <module name="seal-sys-api" target="1.8" />
+      <module name="self-plat" target="1.8" />
+      <module name="self-plat-api" target="1.8" />
+      <module name="slience-seal-system" target="1.8" />
+      <module name="websocket-demo" target="1.8" />
+      <module name="websocket-mms" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

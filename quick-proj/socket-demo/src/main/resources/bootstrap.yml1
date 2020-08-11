@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: socket-demo
+  profiles:
+    active: dev
+
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+
+server:
+  port: 11001
+  tomcat:
+    accept-count: 2000
+    max-connections: 2000
+    max-threads: 2000
+  connection-timeout: 30000
+
+mybatis:
+  mapper-locations: classpath*:dao/*.xml
+  type-aliases-package: com.**.dao
+management:
+  security:
+    enabled: false
+
+# nas挂载路径配置-服务器路径相互同步
+nas:
+  local:
+    path: /mnt/logs/nas/
+    group: socket-nas/

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cert-api/cert-api.iml" filepath="$PROJECT_DIR$/cert-api/cert-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perus-bkapi/person-use-espdf-api.iml" filepath="$PROJECT_DIR$/perus-bkapi/person-use-espdf-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/quick-proj.iml" filepath="$PROJECT_DIR$/.idea/quick-proj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seal-api/seal-api.iml" filepath="$PROJECT_DIR$/seal-api/seal-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/self-plat/self-plat.iml" filepath="$PROJECT_DIR$/self-plat/self-plat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket-demo/websocket-demo.iml" filepath="$PROJECT_DIR$/socket-demo/websocket-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket-mms/websocket-mms.iml" filepath="$PROJECT_DIR$/socket-mms/websocket-mms.iml" />
+    </modules>
+  </component>
+</project>
